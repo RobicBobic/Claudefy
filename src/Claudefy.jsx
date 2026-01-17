@@ -2688,9 +2688,20 @@ Total Supply: 1,000,000,000 CLAUDE
                   marginBottom: '1.5rem',
                 }}>
                   <h3 style={{ color: '#ff6b35' }}>LATEST BLOCKS</h3>
-                  <a href="#" style={{ color: '#ff6b35', fontSize: '0.85rem', textDecoration: 'none' }}>
+                  <button 
+                    onClick={() => {}} 
+                    style={{ 
+                      background: 'none', 
+                      border: 'none', 
+                      color: '#ff6b35', 
+                      fontSize: '0.85rem', 
+                      cursor: 'pointer',
+                      padding: 0,
+                      fontFamily: 'inherit',
+                    }}
+                  >
                     View All →
-                  </a>
+                  </button>
                 </div>
                 <div style={{
                   textAlign: 'center',
@@ -2714,9 +2725,20 @@ Total Supply: 1,000,000,000 CLAUDE
                   marginBottom: '1.5rem',
                 }}>
                   <h3 style={{ color: '#ff6b35' }}>LATEST TRANSACTIONS</h3>
-                  <a href="#" style={{ color: '#ff6b35', fontSize: '0.85rem', textDecoration: 'none' }}>
+                  <button 
+                    onClick={() => {}} 
+                    style={{ 
+                      background: 'none', 
+                      border: 'none', 
+                      color: '#ff6b35', 
+                      fontSize: '0.85rem', 
+                      cursor: 'pointer',
+                      padding: 0,
+                      fontFamily: 'inherit',
+                    }}
+                  >
                     View All →
-                  </a>
+                  </button>
                 </div>
                 <div style={{
                   textAlign: 'center',
